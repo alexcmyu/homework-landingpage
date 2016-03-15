@@ -1,0 +1,167 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #f0efef;
+     font-size: 26px;
+     line-height: 1.4;
+     font-family: Open Sans, Helvetica, Arial, sans-serif;
+     font-weight: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 14px;
+  padding: 40px;
+}
+
+blockquote {
+  width: 600px;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+blockquote span {
+  font-weight: 800;
+  font-style: normal;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+header {
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  height: 700px;
+  padding-top: 32px;
+  padding-left: 50px;
+}
+
+header h2 {
+  text-align: center;
+  margin: 70px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.yellowlogo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9e42e;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 28px;
+}
+
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+#benefits {
+  color: #121212;
+  padding: 32px;
+  margin: 0 auto;
+  float: left;
+}
+
+#quote {
+    background-image: url(../images/testimonial_bg.jpg);
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    clear: left;
+}
+
+.blue {
+  background: #033048;
+  color: #fff;
+}
+
+#signup {
+  display: block;
+  background-color: #f9e42e;
+  background-size: cover;
+  padding: 20px;
+  clear: both;
+}
+
+#footer {
+  padding: 30px;
+  background-color: #2e2e2e;
+  text-align: center;
+}
+
+.socialbtns {
+  padding: 20px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
